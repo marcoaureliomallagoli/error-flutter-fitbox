@@ -1,0 +1,36 @@
+The relevant error-causing widget was: 
+  FittedBox file:///Users/marcoaureliomallagoli/AndroidStudioProjects/shop1/lib/views/product_form_screen.dart:221:27
+When the exception was thrown, this was the stack: 
+#2      BoxConstraints.constrainSizeAndAttemptToPreserveAspectRatio (package:flutter/src/rendering/box.dart:320:12)
+#3      RenderFittedBox.performLayout (package:flutter/src/rendering/proxy_box.dart:2347:26)
+#4      RenderObject.layout (package:flutter/src/rendering/object.dart:1767:7)
+#5      RenderPositionedBox.performLayout (package:flutter/src/rendering/shifted_box.dart:394:13)
+#6      RenderObject._layoutWithoutResize (package:flutter/src/rendering/object.dart:1630:7)
+...
+The following RenderObject was being processed when the exception was fired: RenderFittedBox#1e54b relayoutBoundary=up1 NEEDS-LAYOUT NEEDS-PAINT NEEDS-COMPOSITING-BITS-UPDATE
+...  parentData: offset=Offset(0.0, 0.0) (can use size)
+...  constraints: BoxConstraints(0.0<=w<=98.0, 0.0<=h<=98.0)
+...  size: MISSING
+...  fit: contain
+...  alignment: center
+...  textDirection: ltr
+RenderObject: RenderFittedBox#1e54b relayoutBoundary=up1 NEEDS-LAYOUT NEEDS-PAINT NEEDS-COMPOSITING-BITS-UPDATE
+  parentData: offset=Offset(0.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=98.0, 0.0<=h<=98.0)
+  size: MISSING
+  fit: contain
+  alignment: center
+  textDirection: ltr
+...  child: RenderSemanticsAnnotations#bb4a8 relayoutBoundary=up2 NEEDS-PAINT NEEDS-COMPOSITING-BITS-UPDATE
+...    parentData: <none> (can use size)
+...    constraints: BoxConstraints(unconstrained)
+...    size: Size(0.0, 0.0)
+...    child: RenderImage#3f251 relayoutBoundary=up3 NEEDS-PAINT
+...      parentData: <none> (can use size)
+...      constraints: BoxConstraints(unconstrained)
+...      size: Size(0.0, 0.0)
+...      image: null
+...      fit: cover
+...      alignment: center
+...      invertColors: false
+...      filterQuality: low
